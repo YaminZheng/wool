@@ -1,1 +1,3 @@
-const body = document.querySelector("body");
+import { initialize } from "@wool0522/standard-wallet";
+
+initialize()

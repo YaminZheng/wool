@@ -1,7 +1,6 @@
 {
-    "private": true,
-    "name": "wool-standard-wallet",
-    "version": "0.1.0",
+    "name": "@wool0522/standard-wallet",
+    "version": "0.0.4",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/wallet-standard",
     "license": "Apache-2.0",
@@ -10,6 +9,9 @@
     },
     "type": "module",
     "sideEffects": false,
+    "files": [
+        "lib"
+    ],
     "main": "./lib/cjs/index.js",
     "module": "./lib/esm/index.js",
     "types": "./lib/types/index.d.ts",

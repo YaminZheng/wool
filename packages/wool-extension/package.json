@@ -1,5 +1,5 @@
 {
-  "name": "bit-wallet",
+  "name": "@wool/pages",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,14 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
+    "@solana/web3.js": "^1.95.0",
     "@vueuse/core": "^10.11.0",
+    "@wool0522/standard-wallet": "^0.0.4",
+    "eventemitter3": "^5.0.1",
     "vue": "^3.4.29"
   },
   "devDependencies": {

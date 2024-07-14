@@ -16,7 +16,7 @@
   "content_scripts": [
     {
       "js": ["scripts/content.js"],
-      "matches": ["*://*/*"]
+      "matches": ["http://localhost/*"]
     }
   ],
   "background": {
