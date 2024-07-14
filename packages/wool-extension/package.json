@@ -1,0 +1,33 @@
+{
+  "name": "bit-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue-macros/volar": "^0.23.1",
+    "chrome-types": "^0.1.292",
+    "sass": "^1.77.8",
+    "sass-runtime-tool": "^2.0.1",
+    "typescript": "^5.2.2",
+    "unocss": "^0.61.3",
+    "unplugin-auto-import": "^0.18.0",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.2",
+    "unplugin-vue-macros": "^2.9.5",
+    "vite": "^5.3.1",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.21"
+  }
+}
